@@ -5,16 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "C#: Supermercado Debug",
             "type": "coreclr",
             "request": "launch",
-            "name": ".netcore",
-            "preLaunchTask": "build",
-            "program": "${workspaceFolder}/Supermercado.Api/bin/Debug/net7.0/Supermercado.Api.dll",
-            "args": [],
-            "cwd": "${workspaceFolder}/Supermercado.Api",
-            "stopAtEntry": false,
-            "justMyCode": false,
-            "requireExactSource": false
+            "projectPath": "${workspaceFolder}/Supermercado.Api/Supermercado.Api.csproj"
         }
     ]
 }
